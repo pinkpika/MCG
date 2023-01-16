@@ -305,7 +305,11 @@ $(function () {
 
 
 $(window).scroll(function() {
-  if($(window).scrollTop() + $(window).height() == $(document).height()) {
-    moreCircles();
-  }
+  // if($(window).scrollTop() + $(window).height() == $(document).height()) {
+  //   moreCircles();
+  // }
+});
+
+$(window).on('load', function(){
+  makeMagicCircle();
 });
