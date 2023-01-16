@@ -299,9 +299,9 @@ function moreCircles()
   $('.magic-circle > .formula').lettering();
 }
 
-$(function () {
-  moreCircles();
-});
+// $(function () {
+//   moreCircles();
+// });
 
 
 $(window).scroll(function() {
